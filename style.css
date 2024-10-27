@@ -1,0 +1,492 @@
+/*POUR PC*/
+
+@media (min-width: 769px) {
+
+    body{
+      margin:0;
+    }
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 1%;
+    }
+  
+  
+    .logo {
+      max-height: 150px;
+    }
+
+    hr.A{
+        border-width: 2px;
+        border-color: #000000;
+      }
+    
+      hr.B{
+        border-width: 2px;
+        border-color: #000000;
+      }
+  
+    .menubarre {
+      display: none; 
+    }
+  
+    .menu {
+      display: flex;
+      align-items: center;
+    }
+  
+    .menu ul {
+      list-style: none;
+      display: flex;
+    }
+  
+    .menu li {
+      margin: 0px 30px;
+    }
+  
+    .menu a {
+      text-decoration: none;
+      color: #000000;
+      font-family: arial;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 28px;
+      cursor: pointer;
+      color: white;
+      display: none;
+    }
+
+    .dernierfilm{
+        width: 100%;
+    }
+    .lastmovie1{
+        width: 100%;
+    }
+    .lastmovie2{
+        display: none;
+    }
+
+    .movie{
+      width: 100%;
+    }
+
+    .next{
+      margin: 300px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+    .carriere{
+      margin: 300px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      display: flex;
+    }
+    .carrieretitre{
+      font-size: 40px;
+      font-family: arial;
+      font-weight: bolder;
+      color: #ffffff;
+    }
+    .carriereimg{
+      width: 50%;
+      margin-right: 10px;
+      height: 50%;
+    }
+    .carrieretext{
+      font-size: 25px;
+      font-family: arial;
+      text-align: left;
+      font-style: italic;
+    }
+
+    .btn{
+      display: block;
+      color: #ffffff;
+      padding: 20px;
+      background-color: #00008b9d;
+
+    }
+    .carrierebtn{
+      text-decoration: underline;
+      color: #ffffff;
+    }
+
+    .bas {
+      display: block;
+      background-color: #00008b28; 
+      padding: 40px;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .reseaulogo img{
+      width: 25px;
+      margin: 20px;
+    }
+
+    .menubas {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .menubas ul {
+      list-style: none;
+      text-align: center;
+      padding: 0px;
+    }
+  
+    .menubas li {
+      margin-bottom: 7px;
+    }
+  
+    .menubas a {
+      text-decoration: underline;
+      color: #000000;
+      font-family: arial;
+      font-size: 15px;
+    }
+    .restes{
+      display: inline-flex;
+    }
+    .restes a{
+      text-align: center;
+      font-size: 12px;
+      color: #000000;
+      font-family: arial;
+    }
+    hr{
+      width: 0px;
+      border-style: solid;
+      border-color: #000000;
+      height: 15px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 0px;
+    }
+
+    .droits p{
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .contacteznous{
+      display: block;
+      background: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      margin: 400px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+  }
+  
+  h2 {
+      margin-bottom: 20px;
+      color: #000000;
+      font-family: arial;
+      font-weight: bold;
+      font-size: 40px;
+  }
+  
+  label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #000000;
+      font-family: courier;
+      font-size: 20px;
+  }
+  
+  input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+  }
+  
+  button {
+      width: 100%;
+      padding: 10px;
+      background-color: #00008b;
+      color: white;
+      font-size: 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: arial;
+  }
+  
+  button:hover {
+      background-color: #0000c7;
+  }
+  
+  #form-message {
+      margin-top: 15px;
+      color: #00008bce;
+  }
+}
+
+/*POUR telephone*/
+
+@media (max-width: 768px) {
+    body {
+      margin: 0;
+    }
+  
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      
+    }
+  
+    .logo {
+      max-height: 100px;
+      margin-left: 100px; 
+    }
+  
+    .menubarre {
+      font-size: 40px;
+      cursor: pointer;
+      display: block;
+      color: #000000;
+    }
+  
+    .menu {
+      position: fixed;
+      top: 0;
+      right: -100%; 
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.562);
+      transition: right 0.8s ease; 
+    }
+  
+    .menu.active {
+      right: 0; 
+    }
+  
+    .menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      padding-top: 50px;
+    }
+  
+    .menu li {
+      margin: 10px 0;
+    }
+  
+    .menu a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: normal;
+      margin-bottom: 80px;
+      font-family: arial;
+      font-size: 40px;
+    }
+  
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 30px;
+      cursor: pointer;
+      color: white;
+    }
+    
+    hr.A{
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+  
+    hr.B{
+      margin-top: 50px;
+    }
+
+    .dernierfilm{
+        width: 100%;;
+    }
+
+    .lastmovie1{
+        display: none;
+    }
+
+    .lastmovie2{
+        width: 100%;
+    }
+
+    .movie{
+      width: 100%;
+    }
+
+    .next{
+      margin: 3px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .carriere{
+      margin: 10px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      display: block;
+      background-color: #0000002d;
+      padding: 20px;
+    }
+    .carrieretitre{
+      font-size: 40px;
+      font-family: arial;
+      font-weight: bolder;
+      margin-bottom: 10px;
+    }
+    .carriereimg{
+      width: 100%;
+    }
+    .carrieretext{
+      font-size: 25px;
+      font-family: arial;
+      text-align: left;
+      margin-bottom: 40px;
+      font-style: italic;
+    }
+
+    .btn{
+      display: block;
+      color: #000000;
+      padding: 30px;
+    }
+    .carrierebtn{
+      text-decoration: underline;
+      color: #ffffff;
+    }
+
+    .bas {
+      display: block;
+      background-color: #00008b56; 
+      padding: 40px;
+      align-items: left;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .reseaulogo img{
+      width: 30px;
+      margin: 20px;
+    }
+
+    .contacteznous{
+      display: block;
+      background: #00000007;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      margin: 10px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+  }
+  
+  h2 {
+      margin-bottom: 20px;
+      color: #000000;
+      font-family: arial;
+      font-weight: bold;
+      font-size: 40px;
+  }
+  
+  label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #000000;
+      font-family: courier;
+      font-size: 20px;
+  }
+  
+  input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+  }
+  
+  button {
+      width: 100%;
+      padding: 10px;
+      background-color: #00008b;
+      color: white;
+      font-size: 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: arial;
+  }
+  
+  button:hover {
+      background-color: #0000c7;
+  }
+  
+  #form-message {
+      margin-top: 15px;
+      color: #00008bce;
+  }
+
+
+    .menubas {
+      align-items: center;
+      text-align: right;
+    }
+  
+    .menubas ul {
+      list-style: none;
+      text-align: right;
+      padding: 0px;
+    }
+  
+    .menubas li {
+      margin-bottom: 7px;
+    }
+  
+    .menubas a {
+      text-decoration: underline;
+      color: #000000;
+      font-family: arial;
+      font-size: 15px;
+    }
+    .restes{
+      display: inline-flex;
+      text-align: center;
+    }
+    .restes a{
+      text-align: center;
+      font-size: 15px;
+      color: #000000;
+      font-family: arial;
+    }
+    hr{
+      width: 0px;
+      border-style: solid;
+      border-color: #000000;
+      height: 15px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 0px;
+    }
+
+    .droits p{
+      font-size: 18px;
+      text-align: center;
+    }
+}
